@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		92E1C3E92105F57D00B5E64F /* MinutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1C3E82105F57D00B5E64F /* MinutesTests.swift */; };
+		92E1C3F72106390500B5E64F /* AppCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E1C3F12106390500B5E64F /* AppCenter.framework */; };
+		92E1C3F82106390500B5E64F /* AppCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E1C3F22106390500B5E64F /* AppCenterAnalytics.framework */; };
+		92E1C3F92106390500B5E64F /* AppCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92E1C3F32106390500B5E64F /* AppCenterDistributeResources.bundle */; };
+		92E1C3FA2106390500B5E64F /* AppCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E1C3F42106390500B5E64F /* AppCenterDistribute.framework */; };
+		92E1C3FB2106390500B5E64F /* AppCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E1C3F52106390500B5E64F /* AppCenterPush.framework */; };
+		92E1C3FC2106390500B5E64F /* AppCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E1C3F62106390500B5E64F /* AppCenterCrashes.framework */; };
 		D3048F28202E2B2D00D45D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3048F27202E2B2D00D45D7E /* AppDelegate.swift */; };
 		D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2B202E2B2D00D45D7E /* Main.storyboard */; };
 		D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2E202E2B2D00D45D7E /* Assets.xcassets */; };
@@ -32,6 +38,12 @@
 		92E1C3E62105F57D00B5E64F /* MinutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E1C3E82105F57D00B5E64F /* MinutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesTests.swift; sourceTree = "<group>"; };
 		92E1C3EA2105F57D00B5E64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E1C3F12106390500B5E64F /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenter.framework; sourceTree = "<group>"; };
+		92E1C3F22106390500B5E64F /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterAnalytics.framework; sourceTree = "<group>"; };
+		92E1C3F32106390500B5E64F /* AppCenterDistributeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppCenterDistributeResources.bundle; sourceTree = "<group>"; };
+		92E1C3F42106390500B5E64F /* AppCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterDistribute.framework; sourceTree = "<group>"; };
+		92E1C3F52106390500B5E64F /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterPush.framework; sourceTree = "<group>"; };
+		92E1C3F62106390500B5E64F /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterCrashes.framework; sourceTree = "<group>"; };
 		D3048F24202E2B2D00D45D7E /* Minutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3048F27202E2B2D00D45D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3048F2C202E2B2D00D45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E1C3FA2106390500B5E64F /* AppCenterDistribute.framework in Frameworks */,
+				92E1C3FB2106390500B5E64F /* AppCenterPush.framework in Frameworks */,
+				92E1C3F82106390500B5E64F /* AppCenterAnalytics.framework in Frameworks */,
+				92E1C3F72106390500B5E64F /* AppCenter.framework in Frameworks */,
+				92E1C3FC2106390500B5E64F /* AppCenterCrashes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +88,23 @@
 			path = MinutesTests;
 			sourceTree = "<group>";
 		};
+		92E1C3F0210638AF00B5E64F /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				92E1C3F12106390500B5E64F /* AppCenter.framework */,
+				92E1C3F22106390500B5E64F /* AppCenterAnalytics.framework */,
+				92E1C3F62106390500B5E64F /* AppCenterCrashes.framework */,
+				92E1C3F42106390500B5E64F /* AppCenterDistribute.framework */,
+				92E1C3F32106390500B5E64F /* AppCenterDistributeResources.bundle */,
+				92E1C3F52106390500B5E64F /* AppCenterPush.framework */,
+			);
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
 		D3048F1B202E2B2D00D45D7E = {
 			isa = PBXGroup;
 			children = (
+				92E1C3F0210638AF00B5E64F /* AppCenter */,
 				D3048F26202E2B2D00D45D7E /* Minutes */,
 				92E1C3E72105F57D00B5E64F /* MinutesTests */,
 				D3048F25202E2B2D00D45D7E /* Products */,
@@ -198,6 +229,7 @@
 				D3048F32202E2B2D00D45D7E /* LaunchScreen.storyboard in Resources */,
 				D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */,
 				D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */,
+				92E1C3F92106390500B5E64F /* AppCenterDistributeResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +439,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NEWCA2548;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppCenter",
+				);
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hyperdise.Minutes;
@@ -422,6 +458,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NEWCA2548;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppCenter",
+				);
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hyperdise.Minutes;
